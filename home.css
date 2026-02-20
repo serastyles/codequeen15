@@ -1,0 +1,62 @@
+/* resetting some browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Verdana, sans-serif;
+    background-color: rgb(4, 127, 127);
+    color: antiquewhite;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+h1,h2 {
+    text-align: center;
+    font: 2rem;
+    font-family: Verdana;
+    color: rgb(5, 1, 79);
+}
+
+h3 {
+color: brown;
+}
+ 
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: darkgoldenrod;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/* Likes and Dislikes container */
+.personality {
+    display: flex;
+    gap: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(4, 127, 127);
+}
+
+.mornings {
+    color: rgb(5, 1, 79);
+}
+.likes,
+.dislikes {
+    flex: 1;
+}
