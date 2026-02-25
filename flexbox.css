@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/*The flex part */
+.hero-header{
+    background-color: darkgray;
+    display: flex;
+
+}
+.logo{
+    max-width: 50px;
+    width: 10px;
+}
