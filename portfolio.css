@@ -65,9 +65,9 @@ nav ul {
 }
 .welcome {
     font-size: 1.5rem;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     color: color-mix(in srgb, var(--primary) 70%, rgb(50, 9, 9) 30%);
-    /* margin: 20px; */
+    margin:auto;
     text-align: center;
     padding: 20px;
     justify-content: center; 
@@ -139,6 +139,11 @@ nav ul {
 .social {
     box-shadow: 0 4px 15px rgb(156, 135, 135);
     border-radius: 20px;
+}
+
+/* Bootstrap work */
+.cta {
+    background-color: orange;
 }
 
 
