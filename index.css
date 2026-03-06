@@ -1,0 +1,159 @@
+
+:root {
+--bs-primary: #f904b0;  
+--bs-body-color:#030d2c;
+--basic-color: rgb(227, 221, 221);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: poppins, sans-serif;
+color: var(--basic-color);
+background-color: var(--bs-body-color);
+}
+
+.navbar {
+ background: linear-gradient(135deg, #0a192f 2%, #f904b0 70%, #091a2e 80%);
+}
+
+.navbar-brand, .navbar-toggler {
+    color: var(--basic-color);
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ff2e63;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.hero-container {
+     margin: 0;
+}
+.h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.hero-img {
+    width: 200px;
+    height: 240px;
+    max-width: 350px;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.9;
+    border-radius: 50%;
+    margin: 50px 0px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    
+}
+
+@keyframes float {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+    
+}
+
+.btn {
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    background-color: #8e0665;
+
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+
+}
+
+.social-icon {
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover, .social-icon:focus {
+  color: #f904b0 !important;
+  text-shadow: 0 0 15px rgba(249, 4, 176, 0.7);
+}
+
+.cta {
+    margin: 30px;
+}
+/* the hero css customisation ends here */
+
+/* The about section css customisation starts here */
+.about-text {
+    text-align: left;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.skill-badge {
+  display: inline-block;
+  background: #8e0665;
+  color: white;
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.skill-badge:hover {
+  background: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row ;
+    gap: 20px;
+    padding: 10px;
+    z-index: 1000;
+}
+.social-sidebar a {
+  color: white;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.CTA {
+    margin: 20px;
+    padding: 0px;
+}
+.name{
+    font-size: 2.5rem ;
+    margin-left: 0;
+}
+   /* project css  customisation starts here */
+.project-card {
+  border: none;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+.card-title{
+font-weight: 700;
+}
+/* contact css customisation */
